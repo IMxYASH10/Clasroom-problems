@@ -10,7 +10,8 @@ int main ()
     for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
-    int target = 9;
+    int target;
+    cin >> target;
 
     for (int i = 0; i < n; i++){
         for(int j = i + 1; j < n; j++){
